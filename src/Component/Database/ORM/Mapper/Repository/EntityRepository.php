@@ -71,7 +71,7 @@ class EntityRepository implements EntityRepositoryInterface
       */
       public function find($id)
       {
-           return $this->em->getUnitOfWork()->find($id);
+           return $this->em->unitOfWork()->find($id);
       }
 
 
@@ -82,7 +82,7 @@ class EntityRepository implements EntityRepositoryInterface
       */
       public function findBy(array $criteria, array $orderBy = [], $offset = null, $limit = null)
       {
-           return $this->em->getUnitOfWork()
+           return $this->em->unitOfWork()
                            ->select(null, $criteria, $orderBy)
                            ->getQuery()
                            ->getResult();
@@ -96,7 +96,7 @@ class EntityRepository implements EntityRepositoryInterface
      */
      public function findOneBy(array $criteria)
      {
-         return $this->em->getUnitOfWork()
+         return $this->em->unitOfWork()
                      ->select(null, $criteria)
                      ->getQuery()
                      ->getOneOrNullResult();

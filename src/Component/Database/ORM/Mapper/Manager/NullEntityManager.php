@@ -77,7 +77,7 @@ class NullEntityManager implements EntityManagerInterface
     /**
      * @inheritDoc
     */
-    public function getUnitOfWork(): PersistenceInterface
+    public function unitOfWork(): PersistenceInterface
     {
          return new NullPersistence();
     }

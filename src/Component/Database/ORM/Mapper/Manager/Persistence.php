@@ -174,6 +174,7 @@ class Persistence implements PersistenceInterface
       */
       public function setIdentity(object $object,  int $value): void
       {
+          // todo refactoring
           $reflection = new \ReflectionObject($object);
           foreach ($reflection->getProperties() as $property) {
              if ($property->getName() === $this->identity) {

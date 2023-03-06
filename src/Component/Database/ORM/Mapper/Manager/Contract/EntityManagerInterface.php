@@ -82,7 +82,7 @@ interface EntityManagerInterface extends ObjectManager
      /**
       * @return PersistenceInterface
      */
-     public function getUnitOfWork(): PersistenceInterface;
+     public function unitOfWork(): PersistenceInterface;
 
 
 
@@ -158,6 +158,7 @@ interface EntityManagerInterface extends ObjectManager
       * @return mixed
      */
      public function transaction(Closure $closure);
+
 
 
 

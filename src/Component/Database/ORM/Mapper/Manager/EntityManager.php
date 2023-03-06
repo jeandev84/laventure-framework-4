@@ -117,7 +117,7 @@ class EntityManager implements EntityManagerInterface
     /**
      * @return Persistence
     */
-    public function getUnitOfWork(): Persistence
+    public function unitOfWork(): Persistence
     {
         return $this->persistence;
     }
