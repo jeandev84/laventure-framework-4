@@ -64,6 +64,12 @@ class Router implements RouterInterface
 
 
 
+      /**
+       * @var array
+      */
+      protected $middlewares = [];
+
+
 
       /**
        * Router constructor.
@@ -212,6 +218,8 @@ class Router implements RouterInterface
       */
       public function middlewares(array $middlewares): static
       {
+           $this->middlewares = array_merge($this->middlewares, $middlewares);
+
            return $this;
       }
 

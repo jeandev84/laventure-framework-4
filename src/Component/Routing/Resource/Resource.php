@@ -82,11 +82,13 @@ abstract class Resource
     {
        foreach (static::configureRoutes() as $route) {
 
-           $action = [$router->getController($this->controller), $route['action']];
-           
-           $this->routes[] = $router->map($route['methods'], $this->resolvePath($route['path']), $action)
-                                    ->name($route['action'])
-                                    ->whereNumber('id');
+           $this->routes[] = $router->map(
+               $route['methods'],
+               $this->resolvePath($route['path']),
+               [$router->getController($this->controller), $route['action']]
+           )
+           ->name($route['action'])
+           ->whereNumber('id');
        }
     }
 
