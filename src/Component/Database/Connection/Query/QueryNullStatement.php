@@ -1,8 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Query\Builder\SQL\Commands\Adapter;
-
-use Lexus\Component\Database\Connection\Query\QueryInterface;
-use Lexus\Component\Database\Connection\Query\QueryResultInterface;
+namespace Laventure\Component\Database\Connection\Query;
 
 
 class QueryNullStatement implements QueryInterface

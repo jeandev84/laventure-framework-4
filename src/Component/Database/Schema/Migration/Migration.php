@@ -1,7 +1,7 @@
 <?php
-namespace Lexus\Component\Database\Schema\Migration;
+namespace Laventure\Component\Database\Schema\Migration;
 
-use Lexus\Component\Database\Schema\Migration\Contract\MigrationInterface;
+use Laventure\Component\Database\Schema\Migration\Contract\MigrationInterface;
 use ReflectionClass;
 
 abstract class Migration implements MigrationInterface

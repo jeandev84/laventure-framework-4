@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Routing;
+namespace Laventure\Component\Routing;
 
 class RouteParameter
 {

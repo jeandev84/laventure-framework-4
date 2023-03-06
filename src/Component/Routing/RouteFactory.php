@@ -1,11 +1,11 @@
 <?php
-namespace Lexus\Component\Routing;
+namespace Laventure\Component\Routing;
 
 use Closure;
-use Lexus\Component\Routing\Resource\ApiResource;
-use Lexus\Component\Routing\Resource\Resource;
-use Lexus\Component\Routing\Resource\ResourceType;
-use Lexus\Component\Routing\Resource\WebResource;
+use Laventure\Component\Routing\Resource\ApiResource;
+use Laventure\Component\Routing\Resource\Resource;
+use Laventure\Component\Routing\Resource\ResourceType;
+use Laventure\Component\Routing\Resource\WebResource;
 
 class RouteFactory
 {

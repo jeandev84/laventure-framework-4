@@ -1,12 +1,12 @@
 <?php
-namespace Lexus\Component\Database\Query;
+namespace Laventure\Component\Database\Query;
 
-use Lexus\Component\Database\Connection\ConnectionInterface;
-use Lexus\Component\Database\Connection\Extensions\Mysqli\MysqliConnection;
-use Lexus\Component\Database\Connection\Extensions\PDO\PdoConnection;
-use Lexus\Component\Database\Query\Builder\Builder;
-use Lexus\Component\Database\Query\Builder\Extensions\MysqliQueryBuilder;
-use Lexus\Component\Database\Query\Builder\Extensions\PdoQueryBuilder;
+use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Connection\Extensions\Mysqli\MysqliConnection;
+use Laventure\Component\Database\Connection\Extensions\PDO\PdoConnection;
+use Laventure\Component\Database\Query\Builder\Builder;
+use Laventure\Component\Database\Query\Builder\Extensions\MysqliQueryBuilder;
+use Laventure\Component\Database\Query\Builder\Extensions\PdoQueryBuilder;
 
 
 class QueryBuilderFactory

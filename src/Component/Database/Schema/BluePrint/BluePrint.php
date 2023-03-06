@@ -1,16 +1,16 @@
 <?php
-namespace Lexus\Component\Database\Schema\BluePrint;
+namespace Laventure\Component\Database\Schema\BluePrint;
 
-use Lexus\Component\Database\Connection\ConnectionInterface;
-use Lexus\Component\Database\Schema\BluePrint\Column\Column;
-use Lexus\Component\Database\Schema\BluePrint\Column\ColumnCollection;
-use Lexus\Component\Database\Schema\BluePrint\Column\DropColumn;
-use Lexus\Component\Database\Schema\BluePrint\Column\ModifyColumn;
-use Lexus\Component\Database\Schema\BluePrint\Column\NewColumn;
-use Lexus\Component\Database\Schema\BluePrint\Column\RenameColumn;
-use Lexus\Component\Database\Schema\BluePrint\Indexes\Index;
-use Lexus\Component\Database\Schema\BluePrint\Keys\ForeignKey;
-use Lexus\Component\Database\Schema\BluePrint\Keys\UniqueKey;
+use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Schema\BluePrint\Column\Column;
+use Laventure\Component\Database\Schema\BluePrint\Column\ColumnCollection;
+use Laventure\Component\Database\Schema\BluePrint\Column\DropColumn;
+use Laventure\Component\Database\Schema\BluePrint\Column\ModifyColumn;
+use Laventure\Component\Database\Schema\BluePrint\Column\NewColumn;
+use Laventure\Component\Database\Schema\BluePrint\Column\RenameColumn;
+use Laventure\Component\Database\Schema\BluePrint\Indexes\Index;
+use Laventure\Component\Database\Schema\BluePrint\Keys\ForeignKey;
+use Laventure\Component\Database\Schema\BluePrint\Keys\UniqueKey;
 
 
 abstract class BluePrint implements BluePrintInterface

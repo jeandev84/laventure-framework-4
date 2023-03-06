@@ -1,7 +1,7 @@
 <?php
-namespace Lexus\Component\Routing;
+namespace Laventure\Component\Routing;
 
-use Lexus\Component\Routing\Resource\Resource;
+use Laventure\Component\Routing\Resource\Resource;
 
 
 class RouteCollection

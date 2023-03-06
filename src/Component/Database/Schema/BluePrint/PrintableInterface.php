@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Schema\BluePrint;
+namespace Laventure\Component\Database\Schema\BluePrint;
 
 interface PrintableInterface
 {

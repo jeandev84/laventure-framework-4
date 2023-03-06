@@ -1,7 +1,7 @@
 <?php
-namespace Lexus\Component\Database\Schema\Migration\Contract;
+namespace Laventure\Component\Database\Schema\Migration\Contract;
 
-use Lexus\Component\Database\Schema\Migration\Migration;
+use Laventure\Component\Database\Schema\Migration\Migration;
 
 interface MigratorInterface
 {

@@ -1,8 +1,8 @@
 <?php
-namespace Lexus\Component\Database\Connection\Extensions\Mysqli;
+namespace Laventure\Component\Database\Connection\Extensions\Mysqli;
 
-use Lexus\Component\Database\Connection\ConnectionInterface;
-use Lexus\Component\Database\Connection\Query\QueryInterface;
+use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Connection\Query\QueryInterface;
 
 class MysqliConnection implements ConnectionInterface, MysqliConnectionInterface
 {

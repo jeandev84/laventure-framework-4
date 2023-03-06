@@ -1,7 +1,7 @@
 <?php
-namespace Lexus\Component\Database\Connection;
+namespace Laventure\Component\Database\Connection;
 
-use Lexus\Component\Database\Connection\Query\QueryInterface;
+use Laventure\Component\Database\Connection\Query\QueryInterface;
 use Traversable;
 
 interface ConnectionInterface

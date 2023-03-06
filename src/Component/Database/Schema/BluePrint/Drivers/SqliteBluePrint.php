@@ -1,8 +1,8 @@
 <?php
-namespace Lexus\Component\Database\Schema\BluePrint\Drivers;
+namespace Laventure\Component\Database\Schema\BluePrint\Drivers;
 
-use Lexus\Component\Database\Schema\BluePrint\BluePrint;
-use Lexus\Component\Database\Schema\BluePrint\Column\Column;
+use Laventure\Component\Database\Schema\BluePrint\BluePrint;
+use Laventure\Component\Database\Schema\BluePrint\Column\Column;
 
 class SqliteBluePrint extends BluePrint
 {

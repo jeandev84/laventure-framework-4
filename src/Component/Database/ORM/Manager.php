@@ -1,19 +1,19 @@
 <?php
-namespace Lexus\Component\Database\ORM;
+namespace Laventure\Component\Database\ORM;
 
 use Exception;
-use Lexus\Component\Database\Connection\Configuration\Configuration;
-use Lexus\Component\Database\Connection\ConnectionInterface;
-use Lexus\Component\Database\Connection\Contract\HasDatabaseOperationInterface;
-use Lexus\Component\Database\Connection\Extensions\PDO\PdoConnection;
-use Lexus\Component\Database\Connection\Query\QueryInterface;
-use Lexus\Component\Database\Manager\DatabaseManager;
-use Lexus\Component\Database\ORM\Exception\ManagerException;
-use Lexus\Component\Database\ORM\Mapper\Manager\Contract\EntityManagerInterface;
-use Lexus\Component\Database\ORM\Mapper\Manager\NullEntityManager;
-use Lexus\Component\Database\Query\QueryBuilder;
-use Lexus\Component\Database\Schema\Migration\Migrator;
-use Lexus\Component\Database\Schema\Schema;
+use Laventure\Component\Database\Connection\Configuration\Configuration;
+use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Connection\Contract\HasDatabaseOperationInterface;
+use Laventure\Component\Database\Connection\Extensions\PDO\PdoConnection;
+use Laventure\Component\Database\Connection\Query\QueryInterface;
+use Laventure\Component\Database\Manager\DatabaseManager;
+use Laventure\Component\Database\ORM\Exception\ManagerException;
+use Laventure\Component\Database\ORM\Mapper\Manager\Contract\EntityManagerInterface;
+use Laventure\Component\Database\ORM\Mapper\Manager\NullEntityManager;
+use Laventure\Component\Database\Query\QueryBuilder;
+use Laventure\Component\Database\Schema\Migration\Migrator;
+use Laventure\Component\Database\Schema\Schema;
 
 
 class Manager

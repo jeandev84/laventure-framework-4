@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper\Collection\Contract;
+namespace Laventure\Component\Database\ORM\Mapper\Collection\Contract;
 
 class Collection
 {

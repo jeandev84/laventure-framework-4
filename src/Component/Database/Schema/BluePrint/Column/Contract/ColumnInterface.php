@@ -1,7 +1,7 @@
 <?php
-namespace Lexus\Component\Database\Schema\BluePrint\Column\Contract;
+namespace Laventure\Component\Database\Schema\BluePrint\Column\Contract;
 
-use Lexus\Component\Database\Schema\BluePrint\PrintableInterface;
+use Laventure\Component\Database\Schema\BluePrint\PrintableInterface;
 
 interface ColumnInterface extends PrintableInterface
 {

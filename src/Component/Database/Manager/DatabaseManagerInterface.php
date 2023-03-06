@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Manager;
+namespace Laventure\Component\Database\Manager;
 
 interface DatabaseManagerInterface
 {

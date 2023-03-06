@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Schema;
+namespace Laventure\Component\Database\Schema;
 
 use Closure;
 

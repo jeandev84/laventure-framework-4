@@ -1,7 +1,7 @@
 <?php
-namespace Lexus\Component\Database\Schema\BluePrint;
+namespace Laventure\Component\Database\Schema\BluePrint;
 
-use Lexus\Component\Database\Schema\BluePrint\Column\Column;
+use Laventure\Component\Database\Schema\BluePrint\Column\Column;
 
 interface BluePrintInterface
 {

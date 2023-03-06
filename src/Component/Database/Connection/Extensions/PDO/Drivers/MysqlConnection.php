@@ -1,10 +1,10 @@
 <?php
-namespace Lexus\Component\Database\Connection\Extensions\PDO\Drivers;
+namespace Laventure\Component\Database\Connection\Extensions\PDO\Drivers;
 
-use Lexus\Component\Database\Connection\ConnectionInterface;
-use Lexus\Component\Database\Connection\ConnectionType;
-use Lexus\Component\Database\Connection\Extensions\PDO\PdoConnection;
-use Lexus\Component\Database\Connection\Traits\HasDatabase;
+use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Connection\ConnectionType;
+use Laventure\Component\Database\Connection\Extensions\PDO\PdoConnection;
+use Laventure\Component\Database\Connection\Traits\HasDatabase;
 
 class MysqlConnection extends PdoConnection implements ConnectionInterface
 {

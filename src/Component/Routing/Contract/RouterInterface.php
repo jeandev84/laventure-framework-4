@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Routing\Contract;
+namespace Laventure\Component\Routing\Contract;
 
 
 interface RouterInterface

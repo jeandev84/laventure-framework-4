@@ -1,8 +1,8 @@
 <?php
-namespace Lexus\Component\Database\Query\Builder\Extensions;
+namespace Laventure\Component\Database\Query\Builder\Extensions;
 
-use Lexus\Component\Database\Connection\Extensions\Mysqli\MysqliConnection;
-use Lexus\Component\Database\Query\Builder\Builder;
+use Laventure\Component\Database\Connection\Extensions\Mysqli\MysqliConnection;
+use Laventure\Component\Database\Query\Builder\Builder;
 
 
 class MysqliQueryBuilder extends Builder

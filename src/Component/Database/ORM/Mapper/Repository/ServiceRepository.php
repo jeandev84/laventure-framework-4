@@ -1,8 +1,8 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper\Repository;
+namespace Laventure\Component\Database\ORM\Mapper\Repository;
 
 
-use Lexus\Component\Database\ORM\Mapper\Manager\EntityManager;
+use Laventure\Component\Database\ORM\Mapper\Manager\EntityManager;
 
 class ServiceRepository extends EntityRepository
 {

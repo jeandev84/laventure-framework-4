@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Dotenv;
+namespace Laventure\Component\Dotenv;
 
 class Env
 {

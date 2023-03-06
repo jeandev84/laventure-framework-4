@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Routing\Exception;
+namespace Laventure\Component\Routing\Exception;
 
 class NotFoundException extends \Exception
 {

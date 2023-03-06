@@ -1,12 +1,12 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper\Manager;
+namespace Laventure\Component\Database\ORM\Mapper\Manager;
 
 
-use Lexus\Component\Database\ORM\Mapper\Collection\PersistenceCollection;
-use Lexus\Component\Database\ORM\Mapper\Manager\Contract\EntityManagerInterface;
-use Lexus\Component\Database\ORM\Mapper\Manager\Contract\PersistenceInterface;
-use Lexus\Component\Database\ORM\Mapper\Manager\Query\Query;
-use Lexus\Component\Database\Query\Builder\SQL\Commands\Select;
+use Laventure\Component\Database\ORM\Mapper\Collection\PersistenceCollection;
+use Laventure\Component\Database\ORM\Mapper\Manager\Contract\EntityManagerInterface;
+use Laventure\Component\Database\ORM\Mapper\Manager\Contract\PersistenceInterface;
+use Laventure\Component\Database\ORM\Mapper\Manager\Query\Query;
+use Laventure\Component\Database\Query\Builder\SQL\Commands\Select;
 
 
 class Persistence implements PersistenceInterface

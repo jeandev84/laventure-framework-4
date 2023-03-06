@@ -1,12 +1,12 @@
 <?php
-namespace Lexus\Component\Database\Schema\BluePrint;
+namespace Laventure\Component\Database\Schema\BluePrint;
 
-use Lexus\Component\Database\Connection\ConnectionInterface;
-use Lexus\Component\Database\Connection\ConnectionType;
-use Lexus\Component\Database\Schema\BluePrint\Drivers\MysqlBluePrint;
-use Lexus\Component\Database\Schema\BluePrint\Drivers\OracleBluePrint;
-use Lexus\Component\Database\Schema\BluePrint\Drivers\PgsqlBlueprint;
-use Lexus\Component\Database\Schema\BluePrint\Drivers\SqliteBluePrint;
+use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Connection\ConnectionType;
+use Laventure\Component\Database\Schema\BluePrint\Drivers\MysqlBluePrint;
+use Laventure\Component\Database\Schema\BluePrint\Drivers\OracleBluePrint;
+use Laventure\Component\Database\Schema\BluePrint\Drivers\PgsqlBlueprint;
+use Laventure\Component\Database\Schema\BluePrint\Drivers\SqliteBluePrint;
 
 class BluePrintFactory
 {

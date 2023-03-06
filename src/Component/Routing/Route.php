@@ -1,9 +1,9 @@
 <?php
-namespace Lexus\Component\Routing;
+namespace Laventure\Component\Routing;
 
 
-use Lexus\Component\Routing\Exception\BadControllerException;
-use Lexus\Component\Routing\Exception\BadActionException;
+use Laventure\Component\Routing\Exception\BadControllerException;
+use Laventure\Component\Routing\Exception\BadActionException;
 
 class Route implements \ArrayAccess
 {

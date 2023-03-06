@@ -1,8 +1,8 @@
 <?php
-namespace Lexus\Component\Database\Connection;
+namespace Laventure\Component\Database\Connection;
 
-use Lexus\Component\Database\Connection\Query\QueryInterface;
-use Lexus\Component\Database\Query\Builder\SQL\Commands\Adapter\QueryNullStatement;
+use Laventure\Component\Database\Connection\Query\QueryInterface;
+use Laventure\Component\Database\Query\Builder\SQL\Commands\Adapter\QueryNullStatement;
 
 class NullConnection implements ConnectionInterface
 {

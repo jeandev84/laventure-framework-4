@@ -1,19 +1,19 @@
 {
-    "name": "lexus/framework",
+    "name": "laventure/framework",
     "description": "Core application for building web application",
-    "keywords": ["framework", "php", "lexus-framework"],
+    "keywords": ["framework", "php", "laventure-framework"],
     "type": "library",
     "license": "MIT",
     "readme": "",
     "time": "",
     "support": {
-      "issues": "https://github.com/jeandev84/lexus-framework/issues",
-      "source": "https://github.com/jeandev84/lexus-framework",
-      "wiki": "https://github.com/jeandev84/lexus-framework/wiki"
+      "issues": "https://github.com/jeandev84/laventure-framework/issues",
+      "source": "https://github.com/jeandev84/laventure-framework",
+      "wiki": "https://github.com/jeandev84/laventure-framework/wiki"
     },
     "autoload": {
       "psr-4": {
-        "Lexus\\": "src/"
+        "Laventure\\": "src/"
       }
     },
     "authors": [

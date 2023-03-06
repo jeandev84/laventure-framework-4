@@ -1,7 +1,7 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper\Collection;
+namespace Laventure\Component\Database\ORM\Mapper\Collection;
 
-use Lexus\Component\Database\ORM\Mapper\Manager\EntityManager;
+use Laventure\Component\Database\ORM\Mapper\Manager\EntityManager;
 
 class ArrayCollection implements \ArrayAccess, \Countable
 {

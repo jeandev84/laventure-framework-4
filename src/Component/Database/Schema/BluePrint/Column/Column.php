@@ -1,7 +1,7 @@
 <?php
-namespace Lexus\Component\Database\Schema\BluePrint\Column;
+namespace Laventure\Component\Database\Schema\BluePrint\Column;
 
-use Lexus\Component\Database\Schema\BluePrint\Column\Contract\ColumnInterface;
+use Laventure\Component\Database\Schema\BluePrint\Column\Contract\ColumnInterface;
 
 
 class Column implements ColumnInterface

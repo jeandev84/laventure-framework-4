@@ -1,7 +1,7 @@
 <?php
-namespace Lexus\Component\Database\Connection\Extensions\Mysqli;
+namespace Laventure\Component\Database\Connection\Extensions\Mysqli;
 
-use Lexus\Component\Database\Connection\Query\QueryInterface;
+use Laventure\Component\Database\Connection\Query\QueryInterface;
 
 
 class Statement implements QueryInterface

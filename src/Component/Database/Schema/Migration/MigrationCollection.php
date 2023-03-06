@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Schema\Migration;
+namespace Laventure\Component\Database\Schema\Migration;
 
 class MigrationCollection
 {

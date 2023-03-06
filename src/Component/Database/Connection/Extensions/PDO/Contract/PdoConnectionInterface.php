@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Connection\Extensions\PDO\Contract;
+namespace Laventure\Component\Database\Connection\Extensions\PDO\Contract;
 
 use PDO;
 

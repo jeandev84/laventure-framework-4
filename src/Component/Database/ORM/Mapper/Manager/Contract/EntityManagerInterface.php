@@ -1,13 +1,13 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper\Manager\Contract;
+namespace Laventure\Component\Database\ORM\Mapper\Manager\Contract;
 
 use Closure;
-use Lexus\Component\Database\Connection\ConnectionInterface;
-use Lexus\Component\Database\Connection\Query\QueryInterface;
-use Lexus\Component\Database\ORM\Mapper\Manager\Persistence;
-use Lexus\Component\Database\ORM\Mapper\Repository\Contract\EntityRepositoryInterface;
-use Lexus\Component\Database\Query\Builder\SQL\Commands\Select;
-use Lexus\Component\Database\Query\QueryBuilder;
+use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Connection\Query\QueryInterface;
+use Laventure\Component\Database\ORM\Mapper\Manager\Persistence;
+use Laventure\Component\Database\ORM\Mapper\Repository\Contract\EntityRepositoryInterface;
+use Laventure\Component\Database\Query\Builder\SQL\Commands\Select;
+use Laventure\Component\Database\Query\QueryBuilder;
 
 
 

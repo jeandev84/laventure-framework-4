@@ -1,7 +1,6 @@
 <?php
-namespace Lexus\Component\Database\Query\Builder\SQL\Commands\Adapter;
+namespace Laventure\Component\Database\Connection\Query;
 
-use Lexus\Component\Database\Connection\Query\QueryResultInterface;
 
 class QueryNullResult implements QueryResultInterface
 {

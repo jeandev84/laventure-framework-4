@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Schema\BluePrint\Keys;
+namespace Laventure\Component\Database\Schema\BluePrint\Keys;
 
 class Constrained
 {

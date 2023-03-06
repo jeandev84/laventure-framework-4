@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Routing\Resource;
+namespace Laventure\Component\Routing\Resource;
 
 class ApiResource extends Resource
 {

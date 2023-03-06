@@ -1,7 +1,7 @@
 <?php
-namespace Lexus\Component\Database\Schema\BluePrint\Indexes;
+namespace Laventure\Component\Database\Schema\BluePrint\Indexes;
 
-use Lexus\Component\Database\Schema\BluePrint\PrintableInterface;
+use Laventure\Component\Database\Schema\BluePrint\PrintableInterface;
 
 class Index implements PrintableInterface
 {

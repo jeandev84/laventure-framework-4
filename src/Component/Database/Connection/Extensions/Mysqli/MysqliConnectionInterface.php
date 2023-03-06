@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Connection\Extensions\Mysqli;
+namespace Laventure\Component\Database\Connection\Extensions\Mysqli;
 
 interface MysqliConnectionInterface
 {

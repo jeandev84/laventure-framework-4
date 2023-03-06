@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Query\Builder\SQL\Commands;
+namespace Laventure\Component\Database\Query\Builder\SQL\Commands;
 
 class Expression
 {

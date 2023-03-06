@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Query\Builder;
+namespace Laventure\Component\Database\Query\Builder;
 
 interface SqlQueryBuilderInterface
 {

@@ -1,8 +1,8 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper\Collection;
+namespace Laventure\Component\Database\ORM\Mapper\Collection;
 
-use Lexus\Component\Database\ORM\Mapper\Manager\EntityManager;
-use Lexus\Component\Database\ORM\Mapper\Manager\Persistence;
+use Laventure\Component\Database\ORM\Mapper\Manager\EntityManager;
+use Laventure\Component\Database\ORM\Mapper\Manager\Persistence;
 
 
 class PersistenceCollection extends ArrayCollection

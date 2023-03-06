@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper\Manager\Contract;
+namespace Laventure\Component\Database\ORM\Mapper\Manager\Contract;
 
 interface PersistenceInterface
 {

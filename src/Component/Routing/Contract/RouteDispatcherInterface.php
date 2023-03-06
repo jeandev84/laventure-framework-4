@@ -1,7 +1,7 @@
 <?php
-namespace Lexus\Component\Routing\Contract;
+namespace Laventure\Component\Routing\Contract;
 
-use Lexus\Component\Routing\Route;
+use Laventure\Component\Routing\Route;
 
 interface RouteDispatcherInterface
 {

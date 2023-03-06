@@ -1,13 +1,13 @@
 <?php
-namespace Lexus\Component\Database\Query\Builder\Extensions;
+namespace Laventure\Component\Database\Query\Builder\Extensions;
 
 
-use Lexus\Component\Database\Connection\Extensions\PDO\PdoConnection;
-use Lexus\Component\Database\Query\Builder\Builder;
-use Lexus\Component\Database\Query\Builder\SQL\Commands\Delete;
-use Lexus\Component\Database\Query\Builder\SQL\Commands\Insert;
-use Lexus\Component\Database\Query\Builder\SQL\Commands\Select;
-use Lexus\Component\Database\Query\Builder\SQL\Commands\Update;
+use Laventure\Component\Database\Connection\Extensions\PDO\PdoConnection;
+use Laventure\Component\Database\Query\Builder\Builder;
+use Laventure\Component\Database\Query\Builder\SQL\Commands\Delete;
+use Laventure\Component\Database\Query\Builder\SQL\Commands\Insert;
+use Laventure\Component\Database\Query\Builder\SQL\Commands\Select;
+use Laventure\Component\Database\Query\Builder\SQL\Commands\Update;
 
 class PdoQueryBuilder extends Builder
 {

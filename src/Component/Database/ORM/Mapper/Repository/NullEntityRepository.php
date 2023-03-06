@@ -1,7 +1,7 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper\Repository;
+namespace Laventure\Component\Database\ORM\Mapper\Repository;
 
-use Lexus\Component\Database\ORM\Mapper\Repository\Contract\EntityRepositoryInterface;
+use Laventure\Component\Database\ORM\Mapper\Repository\Contract\EntityRepositoryInterface;
 
 class NullEntityRepository implements EntityRepositoryInterface
 {

@@ -1,11 +1,11 @@
 <?php
-namespace Lexus\Component\Routing;
+namespace Laventure\Component\Routing;
 
 use Closure;
-use Lexus\Component\Routing\Contract\RouteDispatcherInterface;
-use Lexus\Component\Routing\Contract\RouterInterface;
-use Lexus\Component\Routing\Exception\NotFoundException;
-use Lexus\Component\Routing\Resource\Resource;
+use Laventure\Component\Routing\Contract\RouteDispatcherInterface;
+use Laventure\Component\Routing\Contract\RouterInterface;
+use Laventure\Component\Routing\Exception\NotFoundException;
+use Laventure\Component\Routing\Resource\Resource;
 
 
 class Router implements RouterInterface

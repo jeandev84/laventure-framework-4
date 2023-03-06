@@ -1,15 +1,15 @@
 <?php
-namespace Lexus\Component\Database\Manager;
+namespace Laventure\Component\Database\Manager;
 
 
-use Lexus\Component\Database\Connection\ConnectionFactory;
-use Lexus\Component\Database\Connection\ConnectionInterface;
-use Lexus\Component\Database\Connection\Exception\ConnectionFactoryException;
+use Laventure\Component\Database\Connection\ConnectionFactory;
+use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Connection\Exception\ConnectionFactoryException;
 
 /**
  * @class DatabaseManager
  *
- * @package Lexus\Component\Database\Manager
+ * @package Laventure\Component\Database\Manager
  *
  * @author Yao Kouassi Jean-Claude <jeanyao@ymail.com php>
 */

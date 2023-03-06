@@ -1,7 +1,7 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper\Manager;
+namespace Laventure\Component\Database\ORM\Mapper\Manager;
 
-use Lexus\Component\Database\ORM\Mapper\Manager\Contract\PersistenceInterface;
+use Laventure\Component\Database\ORM\Mapper\Manager\Contract\PersistenceInterface;
 
 class NullPersistence implements PersistenceInterface
 {

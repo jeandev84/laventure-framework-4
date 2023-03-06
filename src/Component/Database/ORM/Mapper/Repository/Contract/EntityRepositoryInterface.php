@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper\Repository\Contract;
+namespace Laventure\Component\Database\ORM\Mapper\Repository\Contract;
 
 interface EntityRepositoryInterface
 {

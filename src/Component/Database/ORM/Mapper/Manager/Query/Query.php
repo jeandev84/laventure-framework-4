@@ -1,9 +1,9 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper\Manager\Query;
+namespace Laventure\Component\Database\ORM\Mapper\Manager\Query;
 
 
-use Lexus\Component\Database\ORM\Mapper\Manager\Contract\EntityManagerInterface;
-use Lexus\Component\Database\Query\Builder\SQL\Commands\Adapter\SelectQuery;
+use Laventure\Component\Database\ORM\Mapper\Manager\Contract\EntityManagerInterface;
+use Laventure\Component\Database\Query\Builder\SQL\Commands\Adapter\SelectQuery;
 
 
 class Query extends SelectQuery

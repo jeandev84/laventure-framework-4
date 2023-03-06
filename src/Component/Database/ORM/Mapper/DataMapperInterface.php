@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper;
+namespace Laventure\Component\Database\ORM\Mapper;
 
 interface DataMapperInterface
 {

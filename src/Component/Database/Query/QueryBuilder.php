@@ -1,12 +1,12 @@
 <?php
-namespace Lexus\Component\Database\Query;
+namespace Laventure\Component\Database\Query;
 
-use Lexus\Component\Database\Connection\ConnectionInterface;
-use Lexus\Component\Database\Query\Builder\Builder;
-use Lexus\Component\Database\Query\Builder\SQL\Commands\Delete;
-use Lexus\Component\Database\Query\Builder\SQL\Commands\Insert;
-use Lexus\Component\Database\Query\Builder\SQL\Commands\Select;
-use Lexus\Component\Database\Query\Builder\SQL\Commands\Update;
+use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Query\Builder\Builder;
+use Laventure\Component\Database\Query\Builder\SQL\Commands\Delete;
+use Laventure\Component\Database\Query\Builder\SQL\Commands\Insert;
+use Laventure\Component\Database\Query\Builder\SQL\Commands\Select;
+use Laventure\Component\Database\Query\Builder\SQL\Commands\Update;
 
 
 class QueryBuilder implements QueryBuilderInterface

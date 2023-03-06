@@ -1,16 +1,16 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper\Manager;
+namespace Laventure\Component\Database\ORM\Mapper\Manager;
 
 use Closure;
-use Lexus\Component\Database\Connection\ConnectionInterface;
-use Lexus\Component\Database\Connection\NullConnection;
-use Lexus\Component\Database\Connection\Query\QueryInterface;
-use Lexus\Component\Database\ORM\Mapper\Manager\Contract\EntityManagerInterface;
-use Lexus\Component\Database\ORM\Mapper\Manager\Contract\PersistenceInterface;
-use Lexus\Component\Database\ORM\Mapper\Repository\Contract\EntityRepositoryInterface;
-use Lexus\Component\Database\ORM\Mapper\Repository\NullEntityRepository;
-use Lexus\Component\Database\Query\Builder\SQL\Commands\Select;
-use Lexus\Component\Database\Query\QueryBuilder;
+use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Connection\NullConnection;
+use Laventure\Component\Database\Connection\Query\QueryInterface;
+use Laventure\Component\Database\ORM\Mapper\Manager\Contract\EntityManagerInterface;
+use Laventure\Component\Database\ORM\Mapper\Manager\Contract\PersistenceInterface;
+use Laventure\Component\Database\ORM\Mapper\Repository\Contract\EntityRepositoryInterface;
+use Laventure\Component\Database\ORM\Mapper\Repository\NullEntityRepository;
+use Laventure\Component\Database\Query\Builder\SQL\Commands\Select;
+use Laventure\Component\Database\Query\QueryBuilder;
 
 class NullEntityManager implements EntityManagerInterface
 {

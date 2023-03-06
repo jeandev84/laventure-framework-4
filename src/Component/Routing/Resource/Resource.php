@@ -1,8 +1,8 @@
 <?php
-namespace Lexus\Component\Routing\Resource;
+namespace Laventure\Component\Routing\Resource;
 
-use Lexus\Component\Routing\Route;
-use Lexus\Component\Routing\Router;
+use Laventure\Component\Routing\Route;
+use Laventure\Component\Routing\Router;
 
 abstract class Resource
 {

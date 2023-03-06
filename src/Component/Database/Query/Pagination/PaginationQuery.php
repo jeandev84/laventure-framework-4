@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Query\Pagination;
+namespace Laventure\Component\Database\Query\Pagination;
 
 class PaginationQuery implements PaginatedQueryInterface
 {

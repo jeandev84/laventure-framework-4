@@ -1,9 +1,10 @@
 <?php
-namespace Lexus\Component\Database\Query\Builder\SQL\Commands\Adapter;
+namespace Laventure\Component\Database\Query\Builder\SQL\Commands\Adapter;
 
 
-use Lexus\Component\Database\Connection\ConnectionInterface;
-use Lexus\Component\Database\Connection\Query\QueryInterface;
+use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Connection\Query\QueryInterface;
+use Laventure\Component\Database\Connection\Query\QueryNullStatement;
 
 
 /**

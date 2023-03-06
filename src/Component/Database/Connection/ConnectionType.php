@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Connection;
+namespace Laventure\Component\Database\Connection;
 
 class ConnectionType
 {

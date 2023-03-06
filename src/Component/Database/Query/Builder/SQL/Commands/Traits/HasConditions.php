@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Query\Builder\SQL\Commands\Traits;
+namespace Laventure\Component\Database\Query\Builder\SQL\Commands\Traits;
 
 trait HasConditions
 {

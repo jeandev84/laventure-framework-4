@@ -1,10 +1,10 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper\Manager;
+namespace Laventure\Component\Database\ORM\Mapper\Manager;
 
-use Lexus\Component\Database\ORM\Mapper\Collection\ArrayCollection;
-use Lexus\Component\Database\ORM\Mapper\Collection\PersistenceCollection;
-use Lexus\Component\Database\ORM\Mapper\DataMapperInterface;
-use Lexus\Component\Database\ORM\Mapper\Manager\Exception\DataMapperException;
+use Laventure\Component\Database\ORM\Mapper\Collection\ArrayCollection;
+use Laventure\Component\Database\ORM\Mapper\Collection\PersistenceCollection;
+use Laventure\Component\Database\ORM\Mapper\DataMapperInterface;
+use Laventure\Component\Database\ORM\Mapper\Manager\Exception\DataMapperException;
 
 
 class DataMapper implements DataMapperInterface

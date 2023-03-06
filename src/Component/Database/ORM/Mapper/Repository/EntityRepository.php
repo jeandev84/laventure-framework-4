@@ -1,10 +1,10 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper\Repository;
+namespace Laventure\Component\Database\ORM\Mapper\Repository;
 
-use Lexus\Component\Database\ORM\Mapper\Manager\Contract\EntityManagerInterface;
-use Lexus\Component\Database\ORM\Mapper\Manager\EntityManager;
-use Lexus\Component\Database\ORM\Mapper\Repository\Contract\EntityRepositoryInterface;
-use Lexus\Component\Database\Query\Builder\SQL\Commands\Select;
+use Laventure\Component\Database\ORM\Mapper\Manager\Contract\EntityManagerInterface;
+use Laventure\Component\Database\ORM\Mapper\Manager\EntityManager;
+use Laventure\Component\Database\ORM\Mapper\Repository\Contract\EntityRepositoryInterface;
+use Laventure\Component\Database\Query\Builder\SQL\Commands\Select;
 
 
 class EntityRepository implements EntityRepositoryInterface

@@ -1,11 +1,11 @@
 <?php
-namespace Lexus\Component\Database\Schema;
+namespace Laventure\Component\Database\Schema;
 
 
 use Closure;
-use Lexus\Component\Database\Connection\ConnectionInterface;
-use Lexus\Component\Database\Connection\Contract\HasDatabaseOperationInterface;
-use Lexus\Component\Database\Schema\BluePrint\BluePrintFactory;
+use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Connection\Contract\HasDatabaseOperationInterface;
+use Laventure\Component\Database\Schema\BluePrint\BluePrintFactory;
 
 class Schema implements SchemaInterface
 {

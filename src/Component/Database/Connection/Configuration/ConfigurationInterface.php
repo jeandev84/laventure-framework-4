@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Connection\Configuration;
+namespace Laventure\Component\Database\Connection\Configuration;
 
 interface ConfigurationInterface
 {

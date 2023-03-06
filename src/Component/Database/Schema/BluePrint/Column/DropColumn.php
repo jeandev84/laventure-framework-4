@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Schema\BluePrint\Column;
+namespace Laventure\Component\Database\Schema\BluePrint\Column;
 
 class DropColumn extends Column
 {

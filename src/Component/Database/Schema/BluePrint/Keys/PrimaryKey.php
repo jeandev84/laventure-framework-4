@@ -1,7 +1,7 @@
 <?php
-namespace Lexus\Component\Database\Schema\BluePrint\Keys;
+namespace Laventure\Component\Database\Schema\BluePrint\Keys;
 
-use Lexus\Component\Database\Schema\BluePrint\PrintableInterface;
+use Laventure\Component\Database\Schema\BluePrint\PrintableInterface;
 
 
 class PrimaryKey implements PrintableInterface

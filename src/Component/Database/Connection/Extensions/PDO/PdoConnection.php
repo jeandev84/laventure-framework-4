@@ -1,14 +1,14 @@
 <?php
-namespace Lexus\Component\Database\Connection\Extensions\PDO;
+namespace Laventure\Component\Database\Connection\Extensions\PDO;
 
 
 use Exception;
-use Lexus\Component\Database\Connection\Configuration\Configuration;
-use Lexus\Component\Database\Connection\ConnectionInterface;
-use Lexus\Component\Database\Connection\Extensions\PDO\Contract\PdoConnectionInterface;
-use Lexus\Component\Database\Connection\Extensions\PDO\Exception\PdoConnectionException;
-use Lexus\Component\Database\Connection\Query\QueryInterface;
-use Lexus\Component\Database\Connection\Query\QueryLoggerInterface;
+use Laventure\Component\Database\Connection\Configuration\Configuration;
+use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Connection\Extensions\PDO\Contract\PdoConnectionInterface;
+use Laventure\Component\Database\Connection\Extensions\PDO\Exception\PdoConnectionException;
+use Laventure\Component\Database\Connection\Query\QueryInterface;
+use Laventure\Component\Database\Connection\Query\QueryLoggerInterface;
 use PDO;
 use PDOException;
 

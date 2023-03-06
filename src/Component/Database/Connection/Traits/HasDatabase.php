@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\Connection\Traits;
+namespace Laventure\Component\Database\Connection\Traits;
 
 trait HasDatabase
 {

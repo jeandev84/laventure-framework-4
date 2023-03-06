@@ -1,18 +1,18 @@
 <?php
-namespace Lexus\Component\Database\ORM\Mapper\Manager;
+namespace Laventure\Component\Database\ORM\Mapper\Manager;
 
 
 use Closure;
 use Exception;
-use Lexus\Component\Database\Connection\ConnectionInterface;
-use Lexus\Component\Database\Connection\Query\QueryInterface;
-use Lexus\Component\Database\ORM\Mapper\Manager\Contract\EntityManagerInterface;
-use Lexus\Component\Database\ORM\Mapper\Manager\Contract\PersistenceInterface;
-use Lexus\Component\Database\ORM\Mapper\Manager\Exception\EntityManagerException;
-use Lexus\Component\Database\ORM\Mapper\Repository\Factory\EntityRepositoryFactory;
-use Lexus\Component\Database\ORM\Mapper\Repository\ServiceRepository;
-use Lexus\Component\Database\Query\Builder\SQL\Commands\Select;
-use Lexus\Component\Database\Query\QueryBuilder;
+use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Connection\Query\QueryInterface;
+use Laventure\Component\Database\ORM\Mapper\Manager\Contract\EntityManagerInterface;
+use Laventure\Component\Database\ORM\Mapper\Manager\Contract\PersistenceInterface;
+use Laventure\Component\Database\ORM\Mapper\Manager\Exception\EntityManagerException;
+use Laventure\Component\Database\ORM\Mapper\Repository\Factory\EntityRepositoryFactory;
+use Laventure\Component\Database\ORM\Mapper\Repository\ServiceRepository;
+use Laventure\Component\Database\Query\Builder\SQL\Commands\Select;
+use Laventure\Component\Database\Query\QueryBuilder;
 
 class EntityManager implements EntityManagerInterface
 {

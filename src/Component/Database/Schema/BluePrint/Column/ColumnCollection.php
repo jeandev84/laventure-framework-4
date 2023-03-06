@@ -1,10 +1,10 @@
 <?php
-namespace Lexus\Component\Database\Schema\BluePrint\Column;
+namespace Laventure\Component\Database\Schema\BluePrint\Column;
 
 
-use Lexus\Component\Database\Schema\BluePrint\Indexes\Index;
-use Lexus\Component\Database\Schema\BluePrint\Keys\ForeignKey;
-use Lexus\Component\Database\Schema\BluePrint\Keys\UniqueKey;
+use Laventure\Component\Database\Schema\BluePrint\Indexes\Index;
+use Laventure\Component\Database\Schema\BluePrint\Keys\ForeignKey;
+use Laventure\Component\Database\Schema\BluePrint\Keys\UniqueKey;
 
 
 class ColumnCollection

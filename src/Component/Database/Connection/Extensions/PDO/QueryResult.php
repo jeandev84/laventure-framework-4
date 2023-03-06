@@ -1,7 +1,7 @@
 <?php
-namespace Lexus\Component\Database\Connection\Extensions\PDO;
+namespace Laventure\Component\Database\Connection\Extensions\PDO;
 
-use Lexus\Component\Database\Connection\Query\QueryResultInterface;
+use Laventure\Component\Database\Connection\Query\QueryResultInterface;
 use PDO;
 use PDOStatement;
 

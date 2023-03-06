@@ -1,13 +1,13 @@
 <?php
-namespace Lexus\Component\Database\Connection;
+namespace Laventure\Component\Database\Connection;
 
 
 
-use Lexus\Component\Database\Connection\Extensions\Mysqli\MysqliConnection;
-use Lexus\Component\Database\Connection\Extensions\PDO\Drivers\MysqlConnection;
-use Lexus\Component\Database\Connection\Extensions\PDO\Drivers\OracleConnection;
-use Lexus\Component\Database\Connection\Extensions\PDO\Drivers\PgsqlConnection;
-use Lexus\Component\Database\Connection\Extensions\PDO\Drivers\SqliteConnection;
+use Laventure\Component\Database\Connection\Extensions\Mysqli\MysqliConnection;
+use Laventure\Component\Database\Connection\Extensions\PDO\Drivers\MysqlConnection;
+use Laventure\Component\Database\Connection\Extensions\PDO\Drivers\OracleConnection;
+use Laventure\Component\Database\Connection\Extensions\PDO\Drivers\PgsqlConnection;
+use Laventure\Component\Database\Connection\Extensions\PDO\Drivers\SqliteConnection;
 
 class ConnectionFactory
 {

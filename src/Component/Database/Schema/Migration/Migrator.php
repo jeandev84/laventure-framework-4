@@ -1,11 +1,11 @@
 <?php
-namespace Lexus\Component\Database\Schema\Migration;
+namespace Laventure\Component\Database\Schema\Migration;
 
-use Lexus\Component\Database\Connection\ConnectionInterface;
-use Lexus\Component\Database\Query\QueryBuilder;
-use Lexus\Component\Database\Schema\BluePrint\BluePrint;
-use Lexus\Component\Database\Schema\Migration\Contract\MigratorInterface;
-use Lexus\Component\Database\Schema\Schema;
+use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Query\QueryBuilder;
+use Laventure\Component\Database\Schema\BluePrint\BluePrint;
+use Laventure\Component\Database\Schema\Migration\Contract\MigratorInterface;
+use Laventure\Component\Database\Schema\Schema;
 
 
 

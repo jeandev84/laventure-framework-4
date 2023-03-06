@@ -1,5 +1,5 @@
 <?php
-namespace Lexus\Component\Database\ORM\Exception;
+namespace Laventure\Component\Database\ORM\Exception;
 
 class ManagerException extends \Exception
 {
