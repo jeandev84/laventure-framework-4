@@ -1,0 +1,105 @@
+<?php
+namespace Lexus\Component\Database\Query\Builder\SQL\Commands\Adapter;
+
+use Lexus\Component\Database\Connection\ConnectionInterface;
+use Lexus\Component\Database\Connection\Query\QueryInterface;
+
+
+
+class SelectQuery
+{
+
+      /**
+       * @var ConnectionInterface
+      */
+      protected $connection;
+
+
+
+      /**
+       * @var QueryInterface
+      */
+      protected $statement;
+
+
+
+
+
+      public function __construct()
+      {
+           $this->statement = new QueryNullStatement();
+      }
+
+
+
+
+      /**
+       * @param QueryInterface $statement
+       * @return $this
+      */
+      public function statement(QueryInterface $statement): static
+      {
+            $this->statement = $statement;
+
+            return $this;
+      }
+
+
+
+
+
+      /**
+       * @param string $classname
+       * @return $this
+      */
+      public function map(string $classname): static
+      {
+          $this->statement->map($classname);
+
+          return $this;
+      }
+
+
+
+
+
+      /**
+       * @return array
+      */
+      public function getResult(): array
+      {
+          return $this->statement->fetch()->all();
+      }
+
+
+     /**
+      * @return object|bool
+     */
+     public function getOneOrNullResult(): object|bool
+     {
+         return $this->statement->fetch()->one();
+     }
+
+
+
+
+    /**
+     * @return array
+    */
+    public function getArrayResult(): array
+    {
+         return $this->statement->fetch()->assoc();
+    }
+
+
+
+
+
+    /**
+     * @return array
+    */
+    public function getArrayColumns(): array
+    {
+        return $this->statement->fetch()->columns();
+    }
+}

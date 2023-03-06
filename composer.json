@@ -1,0 +1,34 @@
+{
+    "name": "lexus/framework",
+    "description": "Core application for building web application",
+    "keywords": ["framework", "php", "lexus-framework"],
+    "type": "library",
+    "license": "MIT",
+    "readme": "",
+    "time": "",
+    "support": {
+      "issues": "https://github.com/jeandev84/lexus-framework/issues",
+      "source": "https://github.com/jeandev84/lexus-framework",
+      "wiki": "https://github.com/jeandev84/lexus-framework/wiki"
+    },
+    "autoload": {
+      "psr-4": {
+        "Lexus\\": "src/"
+      }
+    },
+    "authors": [
+      {
+        "name": "jeandev84",
+        "email": "jeandev84@yahoo.com"
+      }
+    ],
+    "require": {
+      "php": ">=7.2",
+      "symfony/var-dumper": "^5.3",
+      "ext-pdo": "*",
+      "ext-mysqli": "*",
+      "ext-json": "*",
+      "filp/whoops": "^2.14",
+      "twig/twig": "^3.3"
+    }
+}
