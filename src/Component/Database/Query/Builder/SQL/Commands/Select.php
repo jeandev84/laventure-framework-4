@@ -2,6 +2,7 @@
 namespace Laventure\Component\Database\Query\Builder\SQL\Commands;
 
 use Laventure\Component\Database\Connection\ConnectionInterface;
+use Laventure\Component\Database\Connection\Query\QueryResultInterface;
 use Laventure\Component\Database\Query\Builder\SQL\Commands\Adapter\SelectQuery;
 use Laventure\Component\Database\Query\Builder\SQL\Commands\Common\SqlBuilder;
 use Laventure\Component\Database\Query\Builder\SQL\Commands\Traits\HasConditions;
@@ -308,6 +309,18 @@ class Select extends SqlBuilder
          $this->limit = $limit;
 
          return $this;
+    }
+
+
+
+    /**
+     * Fetch data
+     *
+     * @return QueryResultInterface
+    */
+    public function fetch(): QueryResultInterface
+    {
+         return $this->statement()->fetch();
     }
 
 

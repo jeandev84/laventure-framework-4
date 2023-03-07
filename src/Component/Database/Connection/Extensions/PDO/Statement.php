@@ -171,20 +171,6 @@ class Statement implements QueryInterface, QueryLoggerInterface
     /**
      * @inheritDoc
     */
-    public function map(string $classname): static
-    {
-        $this->statement->setFetchMode(PDO::FETCH_CLASS, $classname);
-
-        return $this;
-    }
-
-
-
-
-
-    /**
-     * @inheritDoc
-    */
     public function lastInsertId(): int
     {
          return $this->pdo->lastInsertId();

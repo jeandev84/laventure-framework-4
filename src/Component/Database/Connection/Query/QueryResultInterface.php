@@ -6,6 +6,18 @@ interface QueryResultInterface
 
 
       /**
+       * Mapping class
+       *
+       * @param string $classname
+       * @return mixed
+      */
+      public function map(string $classname): static;
+
+
+
+
+
+      /**
        * @return mixed
       */
       public function all();

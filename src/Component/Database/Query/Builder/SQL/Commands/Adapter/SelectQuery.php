@@ -15,14 +15,6 @@ use Laventure\Component\Database\Connection\Query\QueryNullStatement;
 class SelectQuery
 {
 
-
-    /**
-     * @var ConnectionInterface
-     */
-    protected $connection;
-
-
-
     /**
      * @var QueryInterface
      */
@@ -55,7 +47,6 @@ class SelectQuery
      */
     public function statement(QueryInterface $statement): static
     {
-        $statement->map($this->classname);
         $this->statement = $statement;
 
         return $this;
@@ -70,7 +61,7 @@ class SelectQuery
     */
     public function getResult(): array
     {
-        return $this->statement->fetch()->all();
+        return $this->statement->fetch()->map($this->classname)->all();
     }
 
 
@@ -81,7 +72,7 @@ class SelectQuery
     */
     public function getOneOrNullResult(): object|bool
     {
-        return $this->statement->fetch()->one();
+        return $this->statement->fetch()->map($this->classname)->one();
     }
 
 
