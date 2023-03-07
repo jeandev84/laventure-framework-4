@@ -101,7 +101,7 @@ abstract class SqlBuilder
     /**
      * @return QueryInterface
     */
-    public function statement(): QueryInterface
+    protected function statement(): QueryInterface
     {
           return $this->connection->statement($this->getSQL(), $this->getParameters());
     }

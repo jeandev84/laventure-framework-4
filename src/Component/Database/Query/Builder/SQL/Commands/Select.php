@@ -380,7 +380,7 @@ class Select extends SqlBuilder
              $sql[] = sprintf('ORDER BY %s', join(',', $this->orderBy));
          }
 
-         // not optimized
+
          if ($this->limit) {
              $sql[] = "LIMIT {$this->limit}". ($this->offset ? " OFFSET {$this->offset}" : "");
          }
